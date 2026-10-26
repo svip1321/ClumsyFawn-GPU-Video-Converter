@@ -33,9 +33,9 @@
 
 可选：`pip install tkinterdnd2`（拖入文件）、`pip install send2trash`（删除原文件时放进回收站）
 
-## 打包成 exe
+## 下载打包好的 exe可执行程序
 
-双击 `build_exe.bat`，打包好的程序在 `dist\ClumsyFawnGPUConverter\ClumsyFawnGPUConverter.exe`（产品名：鹿包的GPU格式转换 / Clumsy Fawn GPU Converter，版本 1.0.0）。
+下载Releases页面的对应版本解压后双击 ClumsyFawnGPUConverter.exe 就能用（产品名：鹿包的GPU格式转换 / Clumsy Fawn GPU Converter，版本 1.0.0）。
 
 为了尽量不被杀毒软件误报，脚本会在单独的干净环境里打包、用文件夹模式、不压缩不加密，并写入完整的作者和版本信息（`version_info.txt`）。没有代码签名证书时仍可能被个别杀毒软件误报，可以把 exe 提交给厂商申诉，脚本结束时会列出申诉地址。
 
