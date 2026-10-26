@@ -27,11 +27,37 @@
 
 ## 怎么运行
 
-1. 安装 Python 3.8 或更高版本
-2. 准备 FFmpeg：放在项目的 `FFMPEG\bin\` 里（需要 `ffmpeg.exe` 和 `ffprobe.exe`），或者加进系统环境变量
-3. 双击 `main.pyw`
+1. 安装 Python 3.8 或更高版本（安装时勾选 **Add Python to PATH**）
+2. 安装需要的 Python 库（见下面「需要安装的 Python 库」）
+3. 准备 FFmpeg：放在项目的 `FFMPEG\bin\` 里（需要 `ffmpeg.exe` 和 `ffprobe.exe`），或者加进系统环境变量
+4. 双击 `main.pyw`
 
-可选：`pip install tkinterdnd2`（拖入文件）、`pip install send2trash`（删除原文件时放进回收站）
+## 需要安装的 Python 库
+
+界面用的是 Python 自带的 tkinter，**不装任何库也能运行**；装上下面这些，体验会更好：
+
+| 库 | 要不要装 | 用来做什么 |
+|---|---|---|
+| `tkinterdnd2` | 推荐 | 把视频、音乐或文件夹直接拖进窗口 |
+| `send2trash` | 可选 | 把原视频放进回收站。Windows / Mac 不装也能用（会用系统自带的功能）；Linux 需要装它，不然「放进回收站」选项会变灰 |
+| `pillow` | 可选 | 高分屏上头像缩放得更清楚 |
+| `pyinstaller` | 只有自己打包 exe 时才需要 | `build_exe.bat` 会自动安装，不用手动装 |
+
+**一键安装**（在命令行 cmd 里运行）：
+
+```
+py -m pip install tkinterdnd2 send2trash pillow
+```
+
+**下载很慢或者报错连不上**（`ConnectionResetError`、`ProxyError` 之类）时，换成国内镜像：
+
+```
+py -m pip install tkinterdnd2 send2trash pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+> - 命令里的 `py` 是 Windows 的 Python 启动器；如果提示找不到 `py`，把它换成 `python` 试试
+> - 想以后一直用国内镜像：`py -m pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+> - Mac / Linux 用 `python3 -m pip install ...`；Linux 如果提示没有 tkinter，先装系统自带的 `python3-tk`（例如 `sudo apt install python3-tk`）
 
 ## 下载打包好的 exe可执行程序
 
