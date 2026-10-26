@@ -1,0 +1,17 @@
+# 打包时产生的文件（不用上传）
+.build_env/
+build/
+dist/
+*.spec
+*.exe
+
+# FFmpeg 太大，而且不属于本项目，请自己下载放到 FFMPEG\bin\
+FFMPEG/
+
+# 个人设置和出错日志
+gpu_video_converter_gui.json
+gpu_video_converter_error.log
+
+# Python 缓存
+__pycache__/
+*.pyc

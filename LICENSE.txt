@@ -1,0 +1,94 @@
+小鹿包的 GPU 音视频转换器 —— 非商业许可协议
+Lubao GPU Audio & Video Converter — Non-Commercial License
+
+Copyright (c) 2026 粗糙的鹿包 (Clumsy Fawn)
+作者联系方式 / Contact: X (Twitter) https://x.com/svip1321
+
+========================================================================
+中文
+========================================================================
+
+本软件的源代码公开，但不是可以随意商用的开源软件。使用、复制、修改或分发本软件，
+即表示你同意下面的条款。
+
+一、允许的用途（非商业）
+  1. 个人学习、研究、自己使用；
+  2. 修改源代码，供自己或非营利的学习交流使用；
+  3. 免费转发、分享本软件或修改后的版本，但必须同时满足第三条的要求。
+
+二、禁止的用途（商业）
+  未经作者事先书面同意，禁止将本软件或其任何部分（包括修改后的版本、其中的代码、
+  图片和界面设计）用于任何商业目的，包括但不限于：
+  1. 出售本软件，或把它作为付费产品、付费服务、付费课程、付费会员的一部分；
+  2. 在公司、商业机构内部用于营利性生产经营；
+  3. 通过本软件获取广告收入、引流收费，或用来推广商业产品；
+  4. 去除或修改作者署名后，以自己的名义发布或销售。
+  如需商业使用，请先通过上方联系方式取得作者的书面授权。
+
+三、分发时必须遵守
+  1. 保留本许可协议全文，以及源代码中的版权和禁止商用声明；
+  2. 保留作者署名「粗糙的鹿包（Clumsy Fawn）」和联系方式，不得冒充作者；
+  3. 修改后的版本需注明「已修改」，并且同样只能非商业使用；
+  4. 头像（assets 文件夹）和内置在程序里的收款码（qr_data.py）属于作者个人，不得替换成他人收款码后分发，
+     也不得用于其他项目。
+
+四、第三方组件
+  本软件调用 FFmpeg 完成转换。FFmpeg 不属于本软件，它遵循自己的许可证
+  （见 FFMPEG/LICENSE，以及 https://ffmpeg.org/legal.html）。
+
+五、免责声明
+  本软件按「现状」提供，不附带任何明示或暗示的保证。软件具有删除原文件的功能，
+  请自行做好备份。因使用本软件造成的任何数据丢失或其他损失，作者不承担责任。
+
+六、违反本协议的，你使用本软件的授权自动终止，作者保留追究责任的权利。
+
+========================================================================
+English
+========================================================================
+
+The source code of this software is publicly available, but it is NOT free for
+commercial use. By using, copying, modifying or distributing this software, you
+agree to the following terms.
+
+1. Permitted (non-commercial) use
+   a. Personal study, research and personal use;
+   b. Modifying the source code for yourself or for non-profit learning and sharing;
+   c. Sharing this software or a modified version free of charge, provided that
+      section 3 is followed.
+
+2. Prohibited (commercial) use
+   Without the author's prior written permission, you may not use this software or
+   any part of it (including modified versions, its code, images and UI design) for
+   any commercial purpose, including but not limited to:
+   a. Selling it, or including it in any paid product, service, course or membership;
+   b. Using it for for-profit business operations inside a company or organization;
+   c. Earning advertising revenue or paid traffic with it, or using it to promote
+      commercial products;
+   d. Removing or changing the author's credit and publishing or selling it as your own.
+   For commercial use, please contact the author for written permission first.
+
+3. Conditions for redistribution
+   a. Keep this license in full, together with the copyright and non-commercial
+      notices in the source code;
+   b. Keep the author credit "粗糙的鹿包 (Clumsy Fawn)" and the contact information; do not
+      impersonate the author;
+   c. Mark modified versions as "modified"; they remain non-commercial only;
+   d. The avatar (assets folder) and the payment QR codes built into the program (qr_data.py) belong to the author. Do not
+      replace them with anyone else's payment codes when redistributing, and do not
+      use them in other projects.
+
+4. Third-party components
+   This software uses FFmpeg for conversion. FFmpeg is not part of this software and
+   is distributed under its own license (see FFMPEG/LICENSE and
+   https://ffmpeg.org/legal.html).
+
+5. Disclaimer
+   This software is provided "as is", without warranty of any kind. It can delete
+   original files; please keep your own backups. The author is not liable for any data
+   loss or other damage caused by using this software.
+
+6. Any violation of these terms automatically terminates your permission to use this
+   software. The author reserves the right to take action.
+
+If the Chinese and English versions differ, the Chinese version prevails.
+如中英文版本有不一致之处，以中文版本为准。
